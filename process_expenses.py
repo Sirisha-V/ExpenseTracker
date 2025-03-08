@@ -25,7 +25,7 @@ print(summary)
 
 # Send email with summary report
 def send_email(subject, body, recipients):
-    sender_email = "your_email@example.com"
+    sender_email = "sirisha.v2000@gmail.com"
     sender_password = "your_password"
     
     msg = MIMEMultipart()
@@ -47,5 +47,5 @@ def send_email(subject, body, recipients):
         print(f"Failed to send email: {e}")
 
 # Example usage
-recipients = ["user1@example.com", "user2@example.com"]
+recipients = ["sirisha.v2000@gmal.com", "user2@example.com"]
 send_email("Monthly Expense Summary", summary, recipients)
